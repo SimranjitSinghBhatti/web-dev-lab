@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive navbar and card grid using Flexbox</title>
+    <link rel="stylesheet" href="style9.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <a class="logo" href="#top">Simranjit Singh Bhatti</a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav-links" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="top">
+        <h1>Responsive Layout with Flexbox</h1>
+        <p>Pesize the browser window to see the navbar and cards adapt.</p>
+    </section>
+
+    <main>
+        <section id="about" class="panel">
+            <h2>About</h2>
+            <p>This page uses Flexbox for the navigation bar and the card layout.</p>
+        </section>
+        <section id="projects" class="panel">
+            <h2>Projects</h2>
+            
+
+                <article class="card">
+                    <h3>Tripzy</h3>
+                    <p>A web app that helps travellers plan their trips.</p>
+                    <a href="https://tripzy-aryan-2026.web.app/" class="btn">Tripzy</a>
+                </article>
+        </section>
+        <section id="skills" class="panel">
+            <h2>Skills</h2>
+            <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Flexbox</li>
+                <li>Github</li>
+                <li>Terminal</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Contact</h2>
+            <p>
+                Email: <a href="mailto:simranjitsinghbhatti22@gmail.com">simranjitsinghbhatti22@gmail.com</a>
+                Github: <a href="https://github.com/simranjitsinghbhatti" target="_blank">github.com/simranjitsinghbhatti</a>
+            </p>
+        <p>&copy; 2026 Simranjit Singh Bhatti. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
